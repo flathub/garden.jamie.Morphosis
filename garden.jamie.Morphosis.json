@@ -63,8 +63,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/Monster/morphosis.git",
-                    "tag": "v1.1",
-                    "commit": "49add71899714d413953ccaacd56b273afbac72d"
+                    "tag": "v1.2",
+                    "commit": "a159d1f32da503d6ac7464e9cfd14b4ac2c5a9df"
                 }
             ]
         }
