@@ -62,9 +62,9 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/Monster/morphosis.git",
-                    "tag": "v1.2",
-                    "commit": "a159d1f32da503d6ac7464e9cfd14b4ac2c5a9df"
+                    "url" : "https://gitlab.gnome.org/World/morphosis.git",
+                    "tag": "v1.3",
+                    "commit": "880f0b22a4f1888217211e17cbd8e791608da497"
                 }
             ]
         }
