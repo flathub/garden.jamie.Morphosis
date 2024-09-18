@@ -1,7 +1,7 @@
 {
     "id" : "garden.jamie.Morphosis",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
     "command" : "morphosis",
     "finish-args" : [
@@ -31,14 +31,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-linux-amd64.tar.gz",
-                    "sha256": "ea3f96dde56ae1577c81184694b8576d8efec52e168ce49a6e7df1441f428289",
+                    "url": "https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-linux-amd64.tar.gz",
+                    "sha256": "f6f46cc61abf3bacb0bf612f4d80b586625c10cf64a4b456853fd358cb4c7319",
                     "only-arches": ["x86_64"]
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-linux-arm64.tar.gz",
-                    "sha256": "93d6c414e5994e254aec840be8428016a70167c835ca3227378217937bd9a01a",
+                    "url": "https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-linux-arm64.tar.gz",
+                    "sha256": "a66ec01f12487def28eed22acc5a8fe4c7c869325291aa4037b33e1915f2568d",
                     "only-arches": ["aarch64"]
                 }
             ]
@@ -51,7 +51,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.12.0"
+                    "tag": "v0.14.0"
                 }
             ]
         },
@@ -63,8 +63,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/World/morphosis.git",
-                    "tag": "v1.3",
-                    "commit": "880f0b22a4f1888217211e17cbd8e791608da497"
+                    "tag": "v1.4",
+                    "commit": "3e371b07c691de5a2e29dc3a754d1c119eceeaba"
                 }
             ]
         }
