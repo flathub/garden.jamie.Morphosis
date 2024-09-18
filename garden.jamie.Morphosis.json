@@ -63,8 +63,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/World/morphosis.git",
-                    "tag": "v1.4",
-                    "commit": "3e371b07c691de5a2e29dc3a754d1c119eceeaba"
+                    "tag": "v1.4.1",
+                    "commit": "4a2c018b651e473a48952140ca014837d07e1a09"
                 }
             ]
         }
