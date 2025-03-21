@@ -22,27 +22,8 @@
     "*.a"
   ],
   "modules": [
-    {
-      "name": "pandoc",
-      "buildsystem": "simple",
-      "build-commands": [
-        "install -Dm755 bin/pandoc ${FLATPAK_DEST}/bin/pandoc"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-amd64.tar.gz",
-          "sha256": "5def6e1ff535e397becce292ee97767a947306150b9fb1488003b67ac3417c5e",
-          "only-arches": ["x86_64"]
-        },
-        {
-          "type": "archive",
-          "url": "https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-linux-arm64.tar.gz",
-          "sha256": "ad5cf63fe0420388d9ec513f02d03e061477b786d11a328164dce8ad7387b8bd",
-          "only-arches": ["aarch64"]
-        }
-      ]
-    },
+    "python3-weasyprint.json",
+    "pandoc.json",
     {
       "name": "blueprint-compiler",
       "buildsystem": "meson",
@@ -63,8 +44,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/morphosis.git",
-          "tag": "48.0",
-          "commit": "1eaa7eaea412122d7129274dc8324be205aeb895"
+          "tag": "48.1",
+          "commit": "d401e5289f0e448a9ef6d1d2e3cdb03f015868f7"
         }
       ]
     }
