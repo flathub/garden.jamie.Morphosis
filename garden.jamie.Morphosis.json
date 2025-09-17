@@ -1,7 +1,7 @@
 {
   "id": "garden.jamie.Morphosis",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "morphosis",
   "finish-args": [
@@ -22,20 +22,8 @@
     "*.a"
   ],
   "modules": [
-    "python3-weasyprint.json",
     "pandoc.json",
-    {
-      "name": "blueprint-compiler",
-      "buildsystem": "meson",
-      "cleanup": ["*"],
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-          "tag": "v0.16.0"
-        }
-      ]
-    },
+    "python3-weasyprint.json",
     {
       "name": "morphosis",
       "builddir": true,
@@ -44,8 +32,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/morphosis.git",
-          "tag": "48.2",
-          "commit": "066b0ba16fb5d0392a9375a1708da8c4459c4510"
+          "tag": "49.0",
+          "commit": "6b1d1833a5fb5507be0c05d0a26fee2a29223d20"
         }
       ]
     }
