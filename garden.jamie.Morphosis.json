@@ -1,7 +1,7 @@
 {
   "id": "garden.jamie.Morphosis",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "morphosis",
   "finish-args": [
@@ -22,8 +22,6 @@
     "*.a"
   ],
   "modules": [
-    "pandoc.json",
-    "python3-weasyprint.json",
     {
       "name": "morphosis",
       "builddir": true,
@@ -32,9 +30,13 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/World/morphosis.git",
-          "tag": "49.0",
-          "commit": "6b1d1833a5fb5507be0c05d0a26fee2a29223d20"
+          "tag": "50.0",
+          "commit": "cf7382a5196e33b94112873cd52eecf86369fcb1"
         }
+      ],
+      "modules": [
+        "pandoc.json",
+        "python3-weasyprint.json"
       ]
     }
   ]
